@@ -123,3 +123,29 @@ header h1 {
   list-style: disc;
   padding: 0 0 0 220px;
 }
+
+.quote {
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background: url(../images/testimonial_bg.jpg);
+  height: 350px;
+  opacity: .9;
+  text-align: center;
+}
+
+.quote blockquote {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  padding: 85px 0 20px 0;
+}
+
+.quote span {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
